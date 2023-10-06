@@ -28,13 +28,13 @@ $(function () {
         if (bodyScroll > 300) {
 
             navbar.addClass("nav-scroll");
-            logo.attr('src', window.location.origin + '/interpoolspav2/public/img/ips-logo.png');
-            // logo.attr('src', '/img/ips-logo.png');
+            // logo.attr('src', window.location.origin + '/interpoolspav2/public/img/ips-logo.png');
+            logo.attr('src', '/img/ips-logo.png');
 
         } else {
             navbar.removeClass("nav-scroll");
-            logo.attr('src', window.location.origin + '/interpoolspav2/public/img/ips-logo.png');
-            // logo.attr('src', '/img/ips-logo.png');
+            // logo.attr('src', window.location.origin + '/interpoolspav2/public/img/ips-logo.png');
+            logo.attr('src', '/img/ips-logo.png');
         }
     });
 
