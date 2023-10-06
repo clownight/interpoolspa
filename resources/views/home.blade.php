@@ -13,10 +13,10 @@
                                 <div class="col-lg-10 offset-lg-1">
                                     <div class="caption hmone">
                                         <h5 class="thin custom-font">pool</h5>
-                                        <h1 data-splitting><a href="#0">Swimming Pool</a>
+                                        <h1 data-splitting><a href="{{route('pool')}}">Swimming Pool</a>
                                         </h1>
                                         <p class="mt-10"></p>
-                                        <a href="#0" class="btn-curve btn-bord btn-lit mt-30">
+                                        <a href="{{route('pool')}}" class="btn-curve btn-bord btn-lit mt-30">
                                             <span>Read More</span>
                                         </a>
                                     </div>
@@ -32,11 +32,11 @@
                                 <div class="col-lg-10 offset-lg-1">
                                     <div class="caption hmone">
                                         <h5 class="thin custom-font">SAUNA ROOM</h5>
-                                        <h1 data-splitting><a href="#0">
+                                        <h1 data-splitting><a href="{{route('sauna')}}">
                                               ห้องอบซาวน่า
                                             </a></h1>
                                         <p class="mt-10"></p>
-                                        <a href="#0" class="btn-curve btn-bord btn-lit mt-30">
+                                        <a href="{{route('sauna')}}" class="btn-curve btn-bord btn-lit mt-30">
                                             <span>Read More</span>
                                         </a>
                                     </div>
@@ -52,12 +52,12 @@
                                 <div class="col-lg-10 offset-lg-1">
                                     <div class="caption hmone">
                                         <h5 class="thin custom-font">pool</h5>
-                                        <h1 data-splitting><a href="#0">
+                                        <h1 data-splitting><a href="www.passornprivatepoolvilla.com" target="_blank">
                                                 Pool villa
                                             </a>
                                         </h1>
                                         <p class="mt-10"></p>
-                                        <a href="#0" class="btn-curve btn-bord btn-lit mt-30">
+                                        <a href="www.passornprivatepoolvilla.com" target="_blank" class="btn-curve btn-bord btn-lit mt-30">
                                             <span>Read More</span>
                                         </a>
                                     </div>
