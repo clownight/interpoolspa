@@ -14,6 +14,8 @@
                         <p>บริษัท อินเตอร์พูลสปา จํากัด เป็นบริษัทที่ให้คําปรึกษา และออกแบบ ผลิต ติดตั้งสระว่ายน้ำ และ ให้การบํารุงรักษา ระบบสระว่ายน้ํา อ่างสปา ห้องอบซาวน่า และ ห้องอบไอน้ํา รวมทั้งจำหน่ายอุปกรณ์สระว่ายน้ำ เคมีภัณฑ์ ซึ่งเป็นการให้บริการที่ครบวงจร</p>
                         <div class="social-icon">
                             <a href="https://www.facebook.com/interpoolspa" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://youtube.com/@interpoolspaofficial3505?si=5L9_1CyD9a7o3xK5" target="_blank"><i class="fab fa-youtube"></i></a>
+                            <a href="https://line.me/R/ti/p/%40908bbguw" target="_blank"><i class="fab fa-line"></i></a>
                         </div>
                     </div>
                 </div>
@@ -47,11 +49,10 @@
                         <div class="fothead">
                             <h6>สาขากรุงเทพฯ</h6>
                         </div>
-                        <p>1 ซอยตากสิน 22 ถนนตากสิน แขวงบุคคโล
-                            เขตธนบุรี กรุงเทพมหานคร 10600</p>
+                        <p>แขวงท่าแร้ง เขตบางเขน กรุงเทพมหานคร 10220</p>
                         <p>มือถือ. <a class="footer-a" href="tel:0887896452">088 789 6452</a></p>
                         <p>อีเมล. <a class="footer-a" href="mailto:Interpoolspa01@gmail.com">Interpoolspa01@gmail.com</a></p>
-                        <p><a class="footer-a" href="https://goo.gl/maps/YcTx7wSoqcRFWnGGA" target="_blank">Google Map</a></p>
+                        <p><a class="footer-a" href="https://maps.app.goo.gl/TaTccQhE9jvUE7pN8" target="_blank">Google Map</a></p>
                     </div>
                 </div>
             </div>
@@ -61,7 +62,7 @@
                 <div class="row">
                     <div class="col-lg-8">
                         <div class="text-left">
-                            <p>© 2023, Made with passion by Watcharagiat Boonmuang.</p>
+                            <p>© 2023, Made with interpoolspa by Watcharagiat Boonmuang.</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
