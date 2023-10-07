@@ -13,9 +13,9 @@
                         <h6>เกี่ยวกับ อินเตอร์พูล สปา</h6>
                         <p>บริษัท อินเตอร์พูลสปา จํากัด เป็นบริษัทที่ให้คําปรึกษา และออกแบบ ผลิต ติดตั้งสระว่ายน้ำ และ ให้การบํารุงรักษา ระบบสระว่ายน้ํา อ่างสปา ห้องอบซาวน่า และ ห้องอบไอน้ํา รวมทั้งจำหน่ายอุปกรณ์สระว่ายน้ำ เคมีภัณฑ์ ซึ่งเป็นการให้บริการที่ครบวงจร</p>
                         <div class="social-icon">
-                            <a href="https://www.facebook.com/interpoolspa" target="_blank"><i class="fab fa-facebook-f" style="color: #0163ae;"></i></a>
-                            <a href="https://youtube.com/@interpoolspaofficial3505?si=5L9_1CyD9a7o3xK5" target="_blank"  style="color: red;"><i class="fab fa-youtube"></i></a>
-                            <a href="https://line.me/R/ti/p/%40908bbguw" target="_blank"><i class="fab fa-line"  style="color: rgb(86, 228, 86);"></i></a>
+                            <a href="https://www.facebook.com/interpoolspa" target="_blank"><i class="fab fa-facebook-f" ></i></a>
+                            <a href="https://youtube.com/@interpoolspaofficial3505?si=5L9_1CyD9a7o3xK5" target="_blank"><i class="fab fa-youtube"></i></a>
+                            <a href="https://line.me/R/ti/p/%40908bbguw" target="_blank" ><i class="fab fa-line"></i></a>
                         </div>
                     </div>
                 </div>

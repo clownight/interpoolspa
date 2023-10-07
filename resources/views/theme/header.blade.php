@@ -53,9 +53,9 @@
                     </li>
                 </ul>
                 <div class="social-icon">
-                    <a href="https://www.facebook.com/profile.php?id=100083219198137&sk=photos" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    <a href="https://youtube.com/@interpoolspaofficial3505?si=5L9_1CyD9a7o3xK5" target="_blank"><i class="fab fa-youtube"></i></a>
-                    <a href="https://line.me/R/ti/p/%40908bbguw" target="_blank"><i class="fab fa-line"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100083219198137&sk=photos" target="_blank" style="color: #0163ae;"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://youtube.com/@interpoolspaofficial3505?si=5L9_1CyD9a7o3xK5" target="_blank"  style="color: red;"><i class="fab fa-youtube"></i></a>
+                    <a href="https://line.me/R/ti/p/%40908bbguw" target="_blank"   style="color: rgb(86, 228, 86);"><i class="fab fa-line"></i></a>
                     <a href="tel:0819605577"><i class="fab fa-phone">081 960 5577</i></a>
                     {{-- <a href="#0"><i class="fab fa-behance"></i></a> --}}
                 </div>
