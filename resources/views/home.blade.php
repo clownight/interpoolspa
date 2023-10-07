@@ -186,7 +186,7 @@
                         </div>
                         <div class="item wow fadeInUp" data-wow-delay=".3s">
                             <div class="img wow imago">
-                                <img src="img/home/Hydrotherapy.jpg" alt="">
+                                <img src="img/home/hydrotherapy.jpg" alt="">
                                 <div class="social"></div>
                             </div>
                             <div class="info">
