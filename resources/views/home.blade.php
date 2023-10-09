@@ -164,7 +164,7 @@
                 </div>
                 <div class="col-lg-7">
                     <div class="team-container">
-                        <div class="item wow fadeInUp" data-wow-delay=".3s">
+                        <div class="item wow fadeInUp" data-wow-delay=".3s" onclick="window.location.href='/pool'">
                             <div class="img wow imago">
                                 <img src="img/home/pool.jpg" alt="">
                                 <div class="social"></div>
@@ -174,7 +174,7 @@
                                 <span>Pool</span>
                             </div>
                         </div>
-                        <div class="item wow fadeInUp" data-wow-delay=".3s">
+                        <div class="item wow fadeInUp" data-wow-delay=".3s"  onclick="window.location.href='/onsen'">
                             <div class="img wow imago">
                                 <img src="img/home/onsen.jpg" alt="">
                                 <div class="social"></div>
@@ -184,7 +184,7 @@
                                 <span>Onsen</span>
                             </div>
                         </div>
-                        <div class="item wow fadeInUp" data-wow-delay=".3s">
+                        <div class="item wow fadeInUp" data-wow-delay=".3s"  onclick="window.location.href='/hydrotherapy'">
                             <div class="img wow imago">
                                 <img src="img/home/hydrotherapy.jpg" alt="">
                                 <div class="social"></div>
@@ -194,7 +194,7 @@
                                 <span>Hydrotherapy</span>
                             </div>
                         </div>
-                        <div class="item wow fadeInUp" data-wow-delay=".3s">
+                        <div class="item wow fadeInUp" data-wow-delay=".3s" onclick="window.location.href='/sauna'">
                             <div class="img wow imago">
                                 <img src="img/home/sauna.jpg" alt="">
                                 <div class="social"></div>
@@ -204,7 +204,7 @@
                                 <span>Sauna Room</span>
                             </div>
                         </div>
-                        <div class="item wow fadeInUp" data-wow-delay=".3s">
+                        <div class="item wow fadeInUp" data-wow-delay=".3s" onclick="window.location.href='/steam'">
                             <div class="img wow imago">
                                 <img src="img/home/steam.jpg" alt="">
                                 <div class="social"></div>
@@ -214,7 +214,7 @@
                                 <span>Steam Room</span>
                             </div>
                         </div>
-                        <div class="item wow fadeInUp" data-wow-delay=".3s">
+                        <div class="item wow fadeInUp" data-wow-delay=".3s" onclick="window.location.href='/products'">
                             <div class="img wow imago">
                                 <img src="img/home/product.jpg" alt="">
                                 <div class="social"></div>

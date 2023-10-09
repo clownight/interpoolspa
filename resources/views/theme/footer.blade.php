@@ -49,7 +49,7 @@
                         <div class="fothead">
                             <h6>สาขากรุงเทพฯ</h6>
                         </div>
-                        <p>แขวงท่าแร้ง เขตบางเขน กรุงเทพมหานคร 10220</p>
+                        <p>139 ซอยรามอินทรา 34 ถนนรามอินทรา แขวงท่าแร้ง เขตบางเขน กรุงเทพ 10230</p>
                         <p>มือถือ. <a class="footer-a" href="tel:0887896452">088 789 6452</a></p>
                         <p>อีเมล. <a class="footer-a" href="mailto:Interpoolspa01@gmail.com">Interpoolspa01@gmail.com</a></p>
                         <p><a class="footer-a" href="https://maps.app.goo.gl/TaTccQhE9jvUE7pN8" target="_blank">Google Map</a></p>
