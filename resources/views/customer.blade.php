@@ -33,7 +33,7 @@
         </div>
     </div>
 </section>
-<section class="about">
+<section class="about section-padding" style="padding-top:0px;">
     <div style="width:80%;margin:auto;">
         <div class="row"> 
             <div class="col-lg-12 map-box">
