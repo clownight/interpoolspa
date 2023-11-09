@@ -19,7 +19,7 @@
 </header>
 
 <!-- ==================== End Header ==================== -->
-<section class="work-carousel metro section-padding">
+<section class="work-carousel metro section-padding" style="padding-bottom: 0px !important;">
     <div class="container-fluid">
         <div class="container">
             <div class="section-head text-center">
@@ -33,8 +33,8 @@
         </div>
     </div>
 </section>
-<section class="contact">
-    <div class="container-fluid">
+<section class="about">
+    <div style="width:80%;margin:auto;">
         <div class="row">
             <div class="col-lg-12 map-box">
                 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=12JsY5T2xFd3ip1Ir-XA4WrEGDzA&ehbc=2E312F" style="width:100%;" height="800"></iframe>
