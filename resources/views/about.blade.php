@@ -109,36 +109,7 @@
 </section>
     <!-- ==================== Start Team ==================== -->
 
-    <section class="team tmgrid section-padding bg-gray">
-        <div class="container">
-            <div class="section-head text-center">
-                <div class="row justify-content-center">
-                    <div class="col-lg-6 col-md-8 col-sm-10">
-                        <h6 class="custom-font">Creative Minds</h6>
-                        <h4 class="playfont">Our Customers</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                @for ($i=1;$i<=45;$i++)
-                <a href="{!! asset('img/customer/'.$i.'.jpg') !!}" class="wow fadeInDown" data-wow-delay=".3s">
-                    <img alt="" src="{!! asset('img/customer/'.$i.'.jpg') !!}" style="" />
-                </a>
-                @endfor
-                
-            </div>
-        </div>
-    </section>
-    <section class="">
-        <div class="container-fulid">
-            <div class="row">
-                <div class="col-12">
-                    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=12JsY5T2xFd3ip1Ir-XA4WrEGDzA&ehbc=2E312F" style="width: 100%;" height="480"></iframe>
-                </div>
-                
-            </div>
-        </div>   
-    </section>
+    
     <!-- ==================== End Team ==================== -->
 
 @endsection

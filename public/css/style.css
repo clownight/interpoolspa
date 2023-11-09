@@ -3457,6 +3457,9 @@ body {
 /* ====================== [ End Footer ] ====================== */
 /* ====================== [ Start Responsive ] ====================== */
 @media screen and (max-width: 991px) {
+  .fab.fa-phone::after{
+    content: '';
+  }
   .md-mb10 {
     margin-bottom: 10px; }
   .md-mb20 {
@@ -3640,6 +3643,9 @@ body {
     text-align: center !important; } }
 
 @media screen and (max-width: 767px) {
+  .product_title{
+    font-size: 2rem !important;
+  }
   .sm-mb10 {
     margin-bottom: 10px; }
   .sm-mb20 {

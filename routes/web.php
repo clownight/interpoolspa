@@ -25,6 +25,7 @@ Route::get("pool", function(){return View::make("pool");})->name('pool');
 Route::get("onsen", function(){return View::make("onsen");})->name('onsen');
 Route::get("sauna", function(){return View::make("sauna");})->name('sauna');
 Route::get("steam", function(){return View::make("steam");})->name('steam');
+Route::get("customer", function(){return View::make("customer");})->name('customer');
 Route::get("hydrotherapy", function(){return View::make("hydro");})->name('hydrotherapy');
 
 

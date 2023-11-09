@@ -36,8 +36,9 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
-                            aria-haspopup="true" aria-expanded="false">บทความ</a>
+                            aria-haspopup="true" aria-expanded="false">สินค้าและบริการ</a>
                         <div class="dropdown-menu">
+                            <a class="dropdown-item" href="{!! route('products') !!}">สินค้า</a>
                             <a class="dropdown-item" href="{!! route('pool') !!}">สระว่ายน้ำ</a>
                             <a class="dropdown-item" href="{!! route('onsen') !!}">ออนเซ็น</a>
                             <a class="dropdown-item" href="{!! route('hydrotherapy') !!}">ธาราบำบัด</a>
@@ -46,7 +47,7 @@
                         </div>
                     </li> 
                     <li class="nav-item">
-                        <a class="nav-link" href="{!! route('products') !!}">สินค้า</a>
+                        <a class="nav-link" href="{!! route('customer') !!}">ลูกค้า</a>
                     </li>
                     <li class="nav-item" style="display:none;">
                         <a class="nav-link" href="{!! route('contact') !!}">ติดต่อเรา</a>

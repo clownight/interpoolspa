@@ -12,7 +12,7 @@
             <div class="archive-header"  style="filter: hue-rotate(45deg);padding:45px 80px;">
                 <div class="row align-items-center">
                     <div class="col-xl-3 w-100">
-                        <h1 class="mb-15">ถังกรอง <br>(FILTER)</h1>
+                        <h1 class="mb-15 product_title">ถังกรอง <br>(FILTER)</h1>
                         <div class="breadcrumb">
                         </div>
                     </div>
@@ -187,7 +187,7 @@
             <div class="archive-header" style="filter: hue-rotate(45deg);padding:45px 80px;">
                 <div class="row align-items-center">
                     <div class="col-xl-3  w-100">
-                        <h1 class="mb-15">ปั๊ม <br> (PUMP)</h1>
+                        <h1 class="mb-15 product_title">ปั๊ม <br> (PUMP)</h1>
                         <div class="breadcrumb">
                         </div>
                     </div>
@@ -362,7 +362,7 @@
             <div class="archive-header" style="filter: hue-rotate(45deg);padding:45px 80px;">
                 <div class="row align-items-center">
                     <div class="col-xl-3 w-100">
-                        <h1 class="mb-15">เครื่องผลิตคลอรีนจากเกลือ <br> (SALT CHLORINATOR)</h1>
+                        <h1 class="mb-15 product_title">เครื่องผลิตคลอรีนจากเกลือ <br> (SALT CHLORINATOR)</h1>
                         <div class="breadcrumb">
                         </div>
                     </div>
@@ -478,7 +478,7 @@
             <div class="archive-header" style="filter: hue-rotate(45deg);padding:45px 80px;">
                 <div class="row align-items-center">
                     <div class="col-xl-3 w-100">
-                        <h1 class="mb-15">อุปกรณ์สระว่ายน้ำ <br></h1>
+                        <h1 class="mb-15 product_title">อุปกรณ์สระว่ายน้ำ <br></h1>
                         <div class="breadcrumb">
                         </div>
                     </div>
@@ -773,7 +773,7 @@
             <div class="archive-header" style="filter: hue-rotate(45deg);padding:45px 80px;">
                 <div class="row align-items-center">
                     <div class="col-xl-3 w-100">
-                        <h1 class="mb-15">เคมีภัณฑ์ <br>(Pool Chemical)</h1>
+                        <h1 class="mb-15 product_title">เคมีภัณฑ์ <br>(Pool Chemical)</h1>
                         <div class="breadcrumb">
                         </div>
                     </div>
@@ -1062,7 +1062,7 @@
             
         </div>
     </div>
-</section>
+</section>  
 @endsection
 @section('script')
 <script>
