@@ -1,0 +1,14 @@
+@media (max-width: 767px) {
+    .slider .parallax-slider .swiper-slide{
+        min-height: 50vh;
+    }
+    .section-home{
+        padding-top: 20px;
+    }
+    .section-home .exp-img .img {
+        height: 220px;
+    }
+    .section-home .exp-img .img .years h2{
+        font-size: 60px;
+    }
+  }

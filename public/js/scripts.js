@@ -52,7 +52,7 @@ $(function () {
 
     var parallaxSlider;
     var parallaxSliderOptions = {
-        speed: 5000,
+        speed: 800,
         autoplay: true,
         parallax: true,
         loop: true,

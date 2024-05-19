@@ -7,7 +7,7 @@
         <div class="swiper-container parallax-slider">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <div class="bg-img valign" data-background="img/slid/slide-04.jpg" data-overlay-dark="2">
+                    <div class="bg-img valign" data-background="img/slid/1.jpg" data-overlay-dark="2">
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-10 offset-lg-1">
@@ -26,10 +26,10 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="bg-img valign" data-background="img/sauna/interpoolspa_sauna_7.jpg" data-overlay-dark="2">
+                    <div class="bg-img valign" data-background="img/slid/2.jpg" data-overlay-dark="2">
                         <div class="container">
                             <div class="row">
-                                <div class="col-lg-10 offset-lg-1">
+                                <div class="col-lg-10 offset-lg-1"> 
                                     <div class="caption hmone">
                                         <h5 class="thin custom-font">SAUNA ROOM</h5>
                                         <h1 data-splitting><a href="{{route('sauna')}}">
@@ -46,18 +46,18 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="bg-img valign" data-background="img/slid/slide-06.jpg" data-overlay-dark="2">
+                    <div class="bg-img valign" data-background="img/slid/3.jpg" data-overlay-dark="2">
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-10 offset-lg-1">
                                     <div class="caption hmone">
-                                        <h5 class="thin custom-font">pool</h5>
-                                        <h1 data-splitting><a href="www.passornprivatepoolvilla.com" target="_blank">
-                                                Pool villa
+                                        <h5 class="thin custom-font">onsen</h5>
+                                        <h1 data-splitting><a href="{{route('onsen')}}" target="_blank">
+                                                Onsen
                                             </a>
                                         </h1>
                                         <p class="mt-10"></p>
-                                        <a href="www.passornprivatepoolvilla.com" target="_blank" class="btn-curve btn-bord btn-lit mt-30">
+                                        <a href="{{route('onsen')}}" target="_blank" class="btn-curve btn-bord btn-lit mt-30">
                                             <span>Read More</span>
                                         </a>
                                     </div>
@@ -87,7 +87,7 @@
 
     <!-- ==================== Start about ==================== -->
 
-    <section class="about section-padding">
+    <section class="about section-padding section-home">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5">
