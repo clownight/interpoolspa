@@ -455,16 +455,16 @@ $(window).on("load", function () {
 
 /* ===============================  Preloader page  =============================== */
 
-paceOptions = {
-    ajax: true,
-    document: true,
-    eventLag: false
-};
+// paceOptions = {
+//     ajax: true,
+//     document: true,
+//     eventLag: false
+// };
 
-Pace.on('done', function () {
-    $('#preloader').addClass("isdone");
-    $('.loading-text').addClass("isdone");
-});
+// Pace.on('done', function () {
+//     $('#preloader').addClass("isdone");
+//     $('.loading-text').addClass("isdone");
+// });
 
 
 /* ===============================  Scroll back to top  =============================== */
@@ -472,21 +472,21 @@ Pace.on('done', function () {
 $(document).ready(function () {
     "use strict";
 
-    var progressPath = document.querySelector('.progress-wrap path');
-    var pathLength = progressPath.getTotalLength();
-    progressPath.style.transition = progressPath.style.WebkitTransition = 'none';
-    progressPath.style.strokeDasharray = pathLength + ' ' + pathLength;
-    progressPath.style.strokeDashoffset = pathLength;
-    progressPath.getBoundingClientRect();
-    progressPath.style.transition = progressPath.style.WebkitTransition = 'stroke-dashoffset 10ms linear';
-    var updateProgress = function () {
-        var scroll = $(window).scrollTop();
-        var height = $(document).height() - $(window).height();
-        var progress = pathLength - (scroll * pathLength / height);
-        progressPath.style.strokeDashoffset = progress;
-    }
-    updateProgress();
-    $(window).scroll(updateProgress);
+    // var progressPath = document.querySelector('.progress-wrap path');
+    // var pathLength = progressPath.getTotalLength();
+    // progressPath.style.transition = progressPath.style.WebkitTransition = 'none';
+    // progressPath.style.strokeDasharray = pathLength + ' ' + pathLength;
+    // progressPath.style.strokeDashoffset = pathLength;
+    // progressPath.getBoundingClientRect();
+    // progressPath.style.transition = progressPath.style.WebkitTransition = 'stroke-dashoffset 10ms linear';
+    // var updateProgress = function () {
+    //     var scroll = $(window).scrollTop();
+    //     var height = $(document).height() - $(window).height();
+    //     var progress = pathLength - (scroll * pathLength / height);
+    //     progressPath.style.strokeDashoffset = progress;
+    // }
+    // updateProgress();
+    // $(window).scroll(updateProgress);
     var offset = 150;
     var duration = 550;
     jQuery(window).on('scroll', function () {
