@@ -94,8 +94,6 @@
                     <div class="exp-img wow fadeInUp" data-wow-delay=".3s">
                         <div class="img bg-img wow imago" data-background="img/vi/interpoolspa_bg_1.jpg">
                             <div class="since custom-font">
-                                {{-- <span>Since</span>
-                                <span>1999</span> --}}
                             </div>
                             <div class="years custom-font">
                                 <h2>19</h2>

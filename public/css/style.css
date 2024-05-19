@@ -1805,10 +1805,9 @@ body {
       .about .exp-img .img .years h2 {
         font-size: 140px;
         font-weight: 800;
-        background: url(../img/exp.jpg) no-repeat;
         background-position: 18% 65%;
         -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        -webkit-text-fill-color: gray;
         line-height: 1; }
       .about .exp-img .img .years h5 {
         color: #b19777;
