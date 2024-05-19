@@ -1231,7 +1231,7 @@ body {
   z-index: 999;
   min-height: 80px; }
   .navbar .icon-bar {
-    color: #fff; }
+    color: #a3a3a3; }
   .navbar .navbar-nav .nav-link {
     font-size: 13px;
     font-weight: 400;
@@ -3504,7 +3504,7 @@ body {
     .navbar .navbar-collapse {
       max-height: 340px;
       overflow: auto;
-      background: #111;
+      background: #fafdff;
       text-align: center;
       padding: 10px 15px; }
     .navbar .nav-link {

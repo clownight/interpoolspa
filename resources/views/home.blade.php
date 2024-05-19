@@ -7,7 +7,7 @@
         <div class="swiper-container parallax-slider">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <div class="bg-img valign" data-background="img/slid/1.jpg" data-overlay-dark="2">
+                    <div class="bg-img valign" data-background="img/slid/1.jpg">
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-10 offset-lg-1">
@@ -26,7 +26,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="bg-img valign" data-background="img/slid/2.jpg" data-overlay-dark="2">
+                    <div class="bg-img valign" data-background="img/slid/2.jpg">
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-10 offset-lg-1"> 
@@ -46,7 +46,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="bg-img valign" data-background="img/slid/3.jpg" data-overlay-dark="2">
+                    <div class="bg-img valign" data-background="img/slid/3.jpg">
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-10 offset-lg-1">

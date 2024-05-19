@@ -11,4 +11,20 @@
     .section-home .exp-img .img .years h2{
         font-size: 60px;
     }
+    .link-phone{
+        position: relative;
+        i{
+            position: absolute;
+            top: 27px;
+            width: 100px;
+            left: -22px;
+        }
+    }
+    .navbar .social-icon, .navbar .search{
+        margin-top:0px;
+    }
+  }
+
+  .link-phone{
+    color: black !important;
   }
