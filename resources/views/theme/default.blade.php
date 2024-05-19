@@ -10,10 +10,10 @@
     <meta name="author" content="" />
 
     <!-- Title  -->
-    <title>{!! env('APP_NAME') !!}</title>
+    <title>{{ env('APP_NAME') }}</title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="{!! asset('img/favicon.ico') !!}" />
+    <link rel="shortcut icon" href="{{ asset('img/favicon.ico') }}" />
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
@@ -25,17 +25,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <!-- Plugins -->
-    <link rel="stylesheet" href="{!! asset('css/plugins.css') !!}" />
+    <link rel="stylesheet" href="{{ asset('css/plugins.css') }}" />
 
     <!-- Core Style Css -->
-    <link rel="stylesheet" href="{!! asset('css/style.css') !!}" />
-    <link rel="stylesheet" href="{!! asset('css/responsive.css') !!}" />
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/responsive.css') }}" />
     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GTM-W89Q7CM">
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
         j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-W89Q7CM');</script>
+        })(window,document,'script','dataLayer','GTM-W89Q7CM');
+    </script>
     <!-- End Google Tag Manager -->
     @yield('css')
 </head>
@@ -75,13 +77,13 @@
     @include('theme.footer')
     <!-- Placed JS at the end of the document so the pages load faster -->
 
-    <script src="{!! asset('js/jquery-3.0.0.min.js') !!}"></script>
-    {{-- <script src="{!! asset('js/jquery-migrate-3.0.0.min.js') !!}"></script> --}}
+    <script src="{{ asset('js/jquery-3.0.0.min.js') }}"></script>
+    {{-- <script src="{{ asset('js/jquery-migrate-3.0.0.min.js') }}"></script> --}}
     <!-- plugins -->
-    <script src="{!! asset('js/plugins.js') !!}"></script> 
+    <script src="{{ asset('js/plugins.js') }}"></script> 
 
     <!-- custom scripts -->
-    <script src="{!! asset('js/scripts.js') !!}"></script>
+    <script src="{{ asset('js/scripts.js') }}"></script>
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W89Q7CM"
         height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
