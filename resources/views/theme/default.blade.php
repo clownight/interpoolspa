@@ -12,7 +12,12 @@
     <title>{{ env('APP_NAME') }}</title>
     <!-- Favicon -->
     <link rel="shortcut icon" href="{{ asset('img/favicon.ico') }}" />
-    <link rel="stylesheet" href="{{ asset('css/allstyle.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/fonts.min.css') }}" />
+    <!-- Plugins -->
+    <link rel="stylesheet" href="{{ asset('css/plugins.css') }}" />
+
+    <!-- Core Style Css -->
+    <link rel="stylesheet" href="{{ asset('css/style.min.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/responsive.css') }}" />
     <!-- Google Tag Manager -->
     <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
@@ -65,8 +70,12 @@
     <!-- Placed JS at the end of the document so the pages load faster -->
 
     <script src="{{ asset('js/jquery-3.0.0.min.js') }}"></script>
+    {{-- <script src="{{ asset('js/jquery-migrate-3.0.0.min.js') }}"></script> --}}
+    <!-- plugins -->
+    <script src="{{ asset('js/plugins.min.js') }}"></script> 
+
     <!-- custom scripts -->
-    <script src="{{ asset('js/allscript.min.js') }}"></script>
+    <script src="{{ asset('js/scripts.min.js') }}"></script>
     <!-- Google Tag Manager (noscript) -->
     <noscript>
         <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W89Q7CM"
