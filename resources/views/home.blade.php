@@ -2,7 +2,6 @@
 
 @section('content')
     <!-- ==================== Start Slider ==================== -->
-
     <header class="slider">
         <div class="swiper-container parallax-slider">
             <div class="swiper-wrapper">
@@ -12,7 +11,7 @@
                             <div class="row">
                                 <div class="col-lg-10 offset-lg-1">
                                     <div class="caption hmone">
-                                        <h5 class="thin custom-font">pool</h5>
+                                        <h5 class="thin custom-font color-pool">pool</h5>
                                         <h1 data-splitting><a href="{{route('pool')}}">Swimming Pool</a>
                                         </h1>
                                         <p class="mt-10"></p>
@@ -31,7 +30,7 @@
                             <div class="row">
                                 <div class="col-lg-10 offset-lg-1"> 
                                     <div class="caption hmone">
-                                        <h5 class="thin custom-font">SAUNA ROOM</h5>
+                                        <h5 class="thin custom-font color-suana">SAUNA ROOM</h5>
                                         <h1 data-splitting><a href="{{route('sauna')}}">
                                               ห้องอบซาวน่า
                                             </a></h1>
@@ -51,7 +50,7 @@
                             <div class="row">
                                 <div class="col-lg-10 offset-lg-1">
                                     <div class="caption hmone">
-                                        <h5 class="thin custom-font">onsen</h5>
+                                        <h5 class="thin custom-font color-onsen">onsen</h5>
                                         <h1 data-splitting><a href="{{route('onsen')}}" target="_blank">
                                                 Onsen
                                             </a>
