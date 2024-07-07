@@ -492,7 +492,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <form id="contact-form" method="post" action="{{ route('sendmail__') }}">
+                    <form  class="form" method="post" action="{{ route('sendmail__') }}">
                         @csrf
                         <div class="messages"></div>
     
@@ -505,12 +505,12 @@
     
                             <div class="form-group">
                                 <label>อีเมล (Email)</label>
-                                <input class="form-control" type="email" name="email" placeholder="Email" required="required">
+                                <input class="form-control" type="email" name="email" placeholder="Email">
                             </div>
     
                             <div class="form-group">
                                 <label>เบอร์โทรศัพท์ (Phone number)</label>
-                                <input class="form-control" type="phone" name="phone" placeholder="phone"
+                                <input class="form-control" type="phone" name="phone" maxlength="10" minlength="10" onkeypress="return isNumberKey(event);" placeholder="phone"
                                     required="required">
                             </div>
     
@@ -615,4 +615,12 @@
             </div>
         </div>
     </section>
+@endsection
+@section('script')
+<script>
+    function isNumberKey(evt){
+        var charCode = (evt.which) ? evt.which : evt.keyCode
+        return !(charCode > 31 && (charCode < 48 || charCode > 57));
+    }
+</script>
 @endsection
