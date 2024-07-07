@@ -34,7 +34,8 @@ class ArticleController extends Controller
     public function testmail($id)
     {
         $article = Article::findOrFail($id);
-        $email = "watcharagiat.bo@gmail.com";
+        $email = "interpoolspa01@gmail.com";
+        // $email = "interpoolspa.info@gmail.com";
         //หรือ ใช้ relationship เรียกจากตาราง user
         //$email = $article->user->email; 
          
