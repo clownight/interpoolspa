@@ -45,5 +45,9 @@ class HomeController extends Controller
         $project3->images = '[{"url":"/img/005/01.jpg"},{"url":"/img/005/02.jpg"},{"url":"/img/005/03.jpg"},{"url":"/img/005/04.jpg"} ]';
         $project3->save();
     }
+
+    public function sendmail__(Request $request){
+        dd($request);
+    }
 }
 
