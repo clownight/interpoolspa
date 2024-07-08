@@ -35,78 +35,78 @@
         margin-bottom: 0.75rem;
     }
     .accordion{
-  margin: 30px 0px;
-}
+    margin: 30px 0px;
+    }
 
-.toggle {
-    display: none;
-  }
-  
-  .option {
-    position: relative;
-    margin-bottom: 1em;
-  }
-  
-  .title,
-  .content {
-    backface-visibility: hidden;
-    transform: translateZ(0);
-    transition: all 0.2s;
-    p{
-        color: black;
-    };
-  }
-  
-  .title {
-    background: #fff;
-    padding: 1em;
-    display: block;
-    color: #16171a;
-    font-weight: bold;
-  }
-  .title:after, .title:before {
-    content: '';
-    position: absolute;
-    right: 26px;
-    top: 43%;
-    width: 1.5px;
-    height: 10px;
-    background-color: #16171a;
-    transition: all 0.2s;
-    transform: rotate(-45deg);
-  }
-  .title:after {
-    transform: rotate(45deg);
-    right: 20px;
-  }
-  
-  .content {
-    max-height: 0;
-    overflow: hidden;
-    background-color: #fff;
-    p {
-      margin: 0;
-      padding: 15px;
-      font-size: 0.9em;
-      line-height: 1.5;
+    .toggle {
+        display: none;
     }
-  }
-  
-  .toggle:checked {
-    & + .title,
-    & + .title + .content {
-      box-shadow: 3px 3px 6px #ddd, -3px 3px 6px #ddd;
+    
+    .option {
+        position: relative;
+        margin-bottom: 1em;
     }
-    & + .title + .content {
-      max-height: 500px;
+    
+    .title,
+    .content2 {
+        backface-visibility: hidden;
+        transform: translateZ(0);
+        transition: all 0.2s;
+        p{
+            color: black;
+        };
     }
-    & + .title:before {
-      transform: rotate(45deg) !important;
+    
+    .title {
+        background: #fff;
+        padding: 1em;
+        display: block;
+        color: #16171a;
+        font-weight: bold;
     }
-    & + .title:after {
-        transform: rotate(-45deg) !important;
-      }
-  }
+    .title:after, .title:before {
+        content: '';
+        position: absolute;
+        right: 26px;
+        top: 43%;
+        width: 1.5px;
+        height: 10px;
+        background-color: #16171a;
+        transition: all 0.2s;
+        transform: rotate(-45deg);
+    }
+    .title:after {
+        transform: rotate(45deg);
+        right: 20px;
+    }
+    
+    .content2 {
+        max-height: 0;
+        overflow: hidden;
+        background-color: #fff;
+        p {
+        margin: 0;
+        padding: 15px;
+        font-size: 0.9em;
+        line-height: 1.5;
+        }
+    }
+    
+    .toggle:checked {
+        & + .title,
+        & + .title + .content2 {
+        box-shadow: 3px 3px 6px #ddd, -3px 3px 6px #ddd;
+        }
+        & + .title + .content2 {
+        max-height: 500px;
+        }
+        & + .title:before {
+        transform: rotate(45deg) !important;
+        }
+        & + .title:after {
+            transform: rotate(-45deg) !important;
+        }
+    }
 </style>
 @endsection
 @section('content')
@@ -546,22 +546,22 @@
                 <div class="col-lg-12">
                     <div class="accordion">
                         <div class="option"><input class="toggle" id="toggle1" type="checkbox" /><label class="title" for="toggle1">สินค้าราคาเท่าไหร่</label>
-                            <div class="content">
+                            <div class="content2">
                                 <p>สินค้าขึ้นอยู่กับความต้องการสระหรือ ออนเซ็นซาวน่าสตีมของลูกค้า ทางเรามีการประเมินราคาให้</p>
                             </div>
                         </div>
                         <div class="option"><input class="toggle" id="toggle2" type="checkbox" /><label class="title" for="toggle2">มีค่าประเมินหน้างานไหม</label>
-                            <div class="content">
+                            <div class="content2">
                                 <p>ไม่มีค้าใช้จ่ายใดๆ</p>
                             </div>
                         </div>
                         <div class="option"><input class="toggle" id="toggle3" type="checkbox" /><label class="title" for="toggle3">มีสั่งซื้อออนไลน์ไหม</label>
-                            <div class="content">
+                            <div class="content2">
                                 <p>มีสั่งซื้อในไลน์ออฟฟิเชียลของบริษัท</p>
                             </div>
                         </div>
                         <div class="option"><input class="toggle" id="toggle4" type="checkbox" /><label class="title" for="toggle4">อยากได้สระว่ายน้ำสักลูกต้องเตรียมค่าใช้จ่ายเริ่มต้นเท่าไหร่</label>
-                            <div class="content">
+                            <div class="content2">
                                 <p>ไม่แน่นอนแล้วแต่ขนาดออพชั่นสระ คุณลูกค้าสามารถติดต่อขอคำปรึกษาได้ฟรี</p>
                             </div>
                         </div>
