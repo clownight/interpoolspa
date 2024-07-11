@@ -13,7 +13,7 @@
 <section class="content-main">
   <div class="content-header">
       <div>
-          <h2 class="content-title card-title">Project List</h2>
+          <h2 class="content-title card-title">ลูกค้าติดต่อ</h2>
           <!-- <p>Lorem ipsum dolor sit amet.</p> -->
       </div>
       <div>
