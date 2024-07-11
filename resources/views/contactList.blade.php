@@ -49,7 +49,7 @@
                           <td>{{$contact->name}}</td>
                           <td>{{$contact->phonenumber}}</td>
                           <td>{{$contact->email}}</td>
-                          <td>{{$contact->message}}</td>
+                          <td>{!! $contact->message !!}</td>
                           <td>{{$contact->updated_at->format('d/m/Y H:i:s')}}</td>
          
                             <!-- dropdown //end -->
