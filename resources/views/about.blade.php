@@ -55,7 +55,7 @@
                         <div class="col-md-5">
                             <div class="years-exp">
                                 <div class="exp-text">
-                                    <h2 class="custom-font">19ปี</h2>
+                                    <h2 class="custom-font">20ปี</h2>
                                     <h6>ประสบการณ์</h6>
                                 </div>
                             </div>

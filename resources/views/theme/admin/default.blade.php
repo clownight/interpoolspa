@@ -18,6 +18,7 @@
         <link rel="stylesheet" href="{{ asset('/plugins/toastr/toastr.min.css') }}">
         <link href="{{asset('admin/assets/css/main.css?v=1.1')}}" rel="stylesheet" type="text/css" />
         @yield('admin_style')
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     </head>
 
     <body>
@@ -37,6 +38,12 @@
                         <a class="menu-link" href="{{route('project_list')}}">
                             <i class="icon material-icons md-format_list_bulleted"></i>
                             <span class="text">เพิ่ม Project</span>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="{{route('contacts.list')}}">
+                            <i class="icon material-icons  material-symbols-outlined">mail</i>
+                            <span class="text">ลูกค้าติดต่อ</span>
                         </a>
                     </li>
                 </ul>

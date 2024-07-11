@@ -34,6 +34,7 @@ Route::get("thankyou", function(){return View::make("thankyou");})->name('thanky
 
 
 Route::get('adminips',[App\Http\Controllers\ProjectController::class,'project_list'])->name('project_list');
+Route::get('adminips/contactlist',[App\Http\Controllers\ArticleController::class,'index'])->name('contacts.list');
 Route::get('adminips/project_list',[App\Http\Controllers\ProjectController::class,'project_list'])->name('project_list');
 Route::get('adminips/project_form',[App\Http\Controllers\ProjectController::class,'form'])->name('project_form');
 Route::get('adminips/project_form_edit/{id}',[App\Http\Controllers\ProjectController::class,'edit'])->name('project_form_edit');

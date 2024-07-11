@@ -10,6 +10,10 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 class ArticleController extends Controller
 {
+    public function index(){
+        $contacts = Article::orderby('created_at','desc')->paginate(15);
+        return view('contactList',compact('contacts'));
+    }
     public function create()
     {
         return view('article.create');
