@@ -5,29 +5,44 @@
         background: rgb(170, 157, 99) !important;
         color: white;
         border: 0px !important;
+        background: 0 0;
+        padding: 12px 35px;
+        border: 1px solid #1e1e1e;
+        position: relative;
+        cursor: pointer;
     }
     .btn-form{
         background: rgb(8, 2, 66) !important;
         color: white;
         border: 0px !important;
+        background: 0 0;
+        padding: 12px 35px;
+        border: 1px solid #1e1e1e;
+        position: relative;
+        cursor: pointer;
     }
     .btn-line{
         background: rgb(10, 194, 56) !important;
         color: white;
         border: 0px !important;
+        background: 0 0;
+        padding: 12px 35px;
+        border: 1px solid #1e1e1e;
+        position: relative;
+        cursor: pointer;
     }
-    .btn-tel:hover,.btn-tel::after{
-        background: rgb(170, 157, 99) !important;
+    .btn-tel:hover{
+        background: rgb(124, 115, 74) !important;
         color: white;
         border: 0px !important;
     }
-    .btn-form:hover,.btn-form::after{
-        background: rgb(8, 2, 66) !important;
+    .btn-form:hover{
+        background: rgb(22, 18, 59) !important;
         color: white;
         border: 0px !important;
     }
-    .btn-line:hover,.btn-line::after{
-        background: rgb(170, 157, 99) !important;
+    .btn-line:hover{
+        background: rgb(4, 83, 50) !important;
         color: white;
         border: 0px !important;
     }
@@ -124,13 +139,13 @@
                                         <h1 data-splitting><a href="{{route('pool')}}">Swimming Pool</a>
                                         </h1>
                                         <p class="mt-10"></p>
-                                        <a href="tel:0887896452" class="btn-curve btn-tel btn-bord btn-lit mt-30">
+                                        <a href="tel:0887896452" class="btn-tel btn-bord btn-lit mt-30">
                                             Tel.0887896452
                                         </a>
-                                        <a href="#contact" class="btn-curve btn-form btn-bord btn-lit mt-30">
+                                        <a href="#contact" class="btn-form btn-bord btn-lit mt-30">
                                             Form Submit
                                         </a>
-                                        <a href="https://line.me/R/ti/p/%40908bbguw" target="_bank" class="btn-curve btn-line btn-bord btn-lit mt-30">
+                                        <a href="https://line.me/R/ti/p/%40908bbguw" target="_bank" class="btn-line btn-bord btn-lit mt-30">
                                             Line@
                                         </a>
                                     </div>
@@ -150,13 +165,13 @@
                                               ห้องอบซาวน่า
                                             </a></h1>
                                         <p class="mt-10"></p>
-                                        <a href="tel:0887896452" class="btn-curve btn-tel btn-bord btn-lit mt-30">
+                                        <a href="tel:0887896452" class="btn-tel btn-bord btn-lit mt-30">
                                             0887896452
                                         </a>
-                                        <a href="#contact" class="btn-curve btn-form btn-bord btn-lit mt-30">
+                                        <a href="#contact" class="btn-form btn-bord btn-lit mt-30">
                                             Form Submit
                                         </a>
-                                        <a href="https://line.me/R/ti/p/%40908bbguw" target="_bank" class="btn-curve btn-line btn-bord btn-lit mt-30">
+                                        <a href="https://line.me/R/ti/p/%40908bbguw" target="_bank" class="btn-line btn-bord btn-lit mt-30">
                                             Line@
                                         </a>
                                     </div>
@@ -177,13 +192,13 @@
                                             </a>
                                         </h1>
                                         <p class="mt-10"></p>
-                                        <a href="tel:0887896452" class="btn-curve btn-tel btn-bord btn-lit mt-30">
+                                        <a href="tel:0887896452" class="btn-tel btn-bord btn-lit mt-30">
                                             0887896452
                                         </a>
-                                        <a href="#contact" class="btn-curve btn-form btn-bord btn-lit mt-30">
+                                        <a href="#contact" class="btn-form btn-bord btn-lit mt-30">
                                             Form Submit
                                         </a>
-                                        <a href="https://line.me/R/ti/p/%40908bbguw" target="_bank" class="btn-curve btn-line btn-bord btn-lit mt-30">
+                                        <a href="https://line.me/R/ti/p/%40908bbguw" target="_bank" class="btn-line btn-bord btn-lit mt-30">
                                             Line@
                                         </a>
                                     </div>
@@ -258,13 +273,13 @@
                                     </div>
                                 </div>
                                 <div class="col-md-12">
-                                    <a href="tel:0887896452" class="btn-curve btn-tel btn-bord btn-lit mt-30">
+                                    <a href="tel:0887896452" class="btn-tel btn-bord btn-lit mt-30">
                                         0887896452
                                     </a>
-                                    <a href="#contact" class="btn-curve btn-form btn-bord btn-lit mt-30">
+                                    <a href="#contact" class="btn-form btn-bord btn-lit mt-30">
                                         Form Submit
                                     </a>
-                                    <a href="https://line.me/R/ti/p/%40908bbguw" target="_bank" class="btn-curve btn-line btn-bord btn-lit mt-30">
+                                    <a href="https://line.me/R/ti/p/%40908bbguw" target="_bank" class="btn-line btn-bord btn-lit mt-30">
                                         Line@
                                     </a>
                                 </div>
@@ -362,13 +377,13 @@
                     </div>
                 </div>
                 <div class="col-md-12 text-center">
-                    <a href="tel:0887896452" class="btn-curve btn-tel btn-bord btn-lit mt-30">
+                    <a href="tel:0887896452" class="btn-tel btn-bord btn-lit mt-30">
                         0887896452
                     </a>
-                    <a href="#contact" class="btn-curve btn-form btn-bord btn-lit mt-30">
+                    <a href="#contact" class="btn-form btn-bord btn-lit mt-30">
                         Form Submit
                     </a>
-                    <a href="https://line.me/R/ti/p/%40908bbguw" target="_bank" class="btn-curve btn-line btn-bord btn-lit mt-30">
+                    <a href="https://line.me/R/ti/p/%40908bbguw" target="_bank" class="btn-line btn-bord btn-lit mt-30">
                         Line@
                     </a>
                 </div>
@@ -402,13 +417,13 @@
                     </ul>
                 </div>
                 <div class="col-md-12 text-center">
-                    <a href="tel:0887896452" class="btn-curve btn-tel btn-bord btn-lit mt-30">
+                    <a href="tel:0887896452" class="btn-tel btn-bord btn-lit mt-30">
                         0887896452
                     </a>
-                    <a href="#contact" class="btn-curve btn-form btn-bord btn-lit mt-30">
+                    <a href="#contact" class="btn-form btn-bord btn-lit mt-30">
                         Form Submit
                     </a>
-                    <a href="https://line.me/R/ti/p/%40908bbguw" target="_bank" class="btn-curve btn-line btn-bord btn-lit mt-30">
+                    <a href="https://line.me/R/ti/p/%40908bbguw" target="_bank" class="btn-line btn-bord btn-lit mt-30">
                         Line@
                     </a>
                 </div>
@@ -457,13 +472,13 @@
                     </div>
                 </div>
                 <div class="col-md-12 text-center">
-                    <a href="tel:0887896452" class="btn-curve btn-tel btn-bord btn-lit mt-30">
+                    <a href="tel:0887896452" class="btn-tel btn-bord btn-lit mt-30">
                         0887896452
                     </a>
-                    <a href="#contact" class="btn-curve btn-form btn-bord btn-lit mt-30">
+                    <a href="#contact" class="btn-form btn-bord btn-lit mt-30">
                         Form Submit
                     </a>
-                    <a href="https://line.me/R/ti/p/%40908bbguw" target="_bank" class="btn-curve btn-line btn-bord btn-lit mt-30">
+                    <a href="https://line.me/R/ti/p/%40908bbguw" target="_bank" class="btn-line btn-bord btn-lit mt-30">
                         Line@
                     </a>
                 </div>
@@ -520,7 +535,7 @@
                                     required="required"></textarea>
                             </div>
                             <div class="form-group text-center">
-                                <button type="submit" class="btn-curve btn-color"><span>Submit</span></button>
+                                <button type="submit" class="btn-color"><span>Submit</span></button>
                             </div>
                         </div>
                     </form>
@@ -568,13 +583,13 @@
                     </div>
                 </div>
                 <div class="col-md-12 text-center">
-                    <a href="tel:0887896452" class="btn-curve btn-tel btn-bord btn-lit mt-30">
+                    <a href="tel:0887896452" class="btn-tel btn-bord btn-lit mt-30">
                         0887896452
                     </a>
-                    <a href="#contact" class="btn-curve btn-form btn-bord btn-lit mt-30">
+                    <a href="#contact" class="btn-form btn-bord btn-lit mt-30">
                         Form Submit
                     </a>
-                    <a href="https://line.me/R/ti/p/%40908bbguw" target="_bank" class="btn-curve btn-line btn-bord btn-lit mt-30">
+                    <a href="https://line.me/R/ti/p/%40908bbguw" target="_bank" class="btn-line btn-bord btn-lit mt-30">
                         Line@
                     </a>
                 </div>
@@ -602,13 +617,13 @@
                     @endforeach
                 </div>
                 <div class="col-md-12 text-center">
-                    <a href="tel:0887896452" class="btn-curve btn-tel btn-bord btn-lit mt-30">
+                    <a href="tel:0887896452" class="btn-tel btn-bord btn-lit mt-30">
                         0887896452
                     </a>
-                    <a href="#contact" class="btn-curve btn-form btn-bord btn-lit mt-30">
+                    <a href="#contact" class="btn-form btn-bord btn-lit mt-30">
                         Form Submit
                     </a>
-                    <a href="https://line.me/R/ti/p/%40908bbguw" target="_bank" class="btn-curve btn-line btn-bord btn-lit mt-30">
+                    <a href="https://line.me/R/ti/p/%40908bbguw" target="_bank" class="btn-line btn-bord btn-lit mt-30">
                         Line@
                     </a>
                 </div>
