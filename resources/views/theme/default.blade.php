@@ -30,10 +30,6 @@
     @yield('css')
 </head>
 <body>
-    <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KPFC7MX2"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
     <!-- ==================== Start Loading ==================== -->
 
     {{-- <div id="preloader">
@@ -75,8 +71,12 @@
     <script src="{{ asset('js/plugins.min.js') }}"></script> 
 
     <!-- custom scripts -->
+    
     <script src="{{ asset('js/scripts.min.js') }}"></script>
-
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KPFC7MX2"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
     @yield('script')
 
 </body>
