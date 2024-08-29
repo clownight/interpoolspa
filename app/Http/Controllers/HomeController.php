@@ -45,5 +45,11 @@ class HomeController extends Controller
         $project3->images = '[{"url":"/img/005/01.jpg"},{"url":"/img/005/02.jpg"},{"url":"/img/005/03.jpg"},{"url":"/img/005/04.jpg"} ]';
         $project3->save();
     }
+
+    public function home2()
+    {
+        $projects = Project::limit(5)->get();
+        return view('home2',compact('projects'));
+    }
 }
 

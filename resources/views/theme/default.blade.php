@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="keywords" content="HTML5 Template Archo onepage themeforest" />
-    <meta name="description" content="Archo - Onepage Multi-Purpose HTML5 Template" />
+    <meta name="keywords" content="Interpoolspa,สระว่ายน้ำ,ออนเซ็น" />
+    <meta name="description" content="INTERPOOLSPA พร้อมดูแลสระว่ายน้ำของคุณ บริการครบวงจร ตั้งแต่การออกแบบจนถึงการติดตั้ง พร้อมทีมงานมืออาชีพ" />
     <meta name="author" content="" />
     <!-- Title  -->
     <title>{{ env('APP_NAME') }}</title>
@@ -18,6 +18,7 @@
 
     <!-- Core Style Css -->
     <link rel="stylesheet" href="{{ asset('css/style.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/custom.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/responsive.css') }}" />
 
 <!-- Google Tag Manager -->
