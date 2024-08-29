@@ -316,7 +316,7 @@
                 </div>
                 <div class="item col-lg-4 col-md-4 col-4 mb-40  wow fadeInUp">
                     <div class="img">
-                        <img src="img/home/IMG_3059.png" alt="">
+                        <img src="img/home/IMG_3059.JPG" alt="">
                     </div>
                     <div class="info">
                         <h5>ซาวน่า</h5>
