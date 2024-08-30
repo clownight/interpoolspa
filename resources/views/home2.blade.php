@@ -177,7 +177,7 @@
     .title2{
         color: white !important;
         font-family: "Roboto Slab", 'kanit';
-        font-size: 1.8 !important;
+        font-size: 1.6vw !important;
         font-weight: 500 !important;
     }
     .bg-blue-custom,.main-footer{
@@ -236,7 +236,11 @@
     .header-text {
         font-size: 4vw;
     }
+
 }
+.contact-me{
+        font-size: 1.6vw !important;
+    }
   .video_text{
     bottom: 13%;
   }
@@ -259,6 +263,9 @@
   }
   .item .info h5, .team .item .info span {
     font-size: 2.5vw !important;
+}
+.font-2{
+    font-size: 4vw !important;
 }
 }
 </style>
@@ -288,9 +295,9 @@
         <div class="container">
             <div class="section-head text-center">
                 <div class="row justify-content-center">
-                    <div class="col-lg-6 col-md-8 col-sm-10">
+                    <div class="col-12">
                         <h6 class="custom-font"> </h6>
-                        <h4 class="playfont">สร้างสระน้ำคุณภาพ เอกลกษณ์เฉพาะตัวของคุณ</h4>
+                        <h4 class="playfont font-2">สร้างสระน้ำคุณภาพ เอกลกษณ์เฉพาะตัวของคุณ</h4>
                     </div>
                 </div>
             </div>
@@ -328,7 +335,7 @@
                         <img src="img/home/การกีฬา 1.jpg" alt="">
                     </div>
                     <div class="info">
-                        <h5>สตีม</h5>
+                        <h5>ห้องสตีม</h5>
                         <span>STEAM ROOM</span>
                     </div>
                 </div>
@@ -351,7 +358,7 @@
                 <div class="section-head text-center">
                     <div class="row justify-content-center">
                         <h6 class="custom-font title2 wow fadeInDown" data-wow-delay=".3s">
-                            INTERPOOLSPA พร้อมดูแลสระว่ายน้ำของคุณ บริการครบวงจร
+                            INTERPOOLSPA พร้อมดูแลสระว่ายน้ำของคุณ <br>บริการครบวงจร
                             ตั้งแต่การออกแบบจนถึงการติดตั้ง พร้อมทีมงานมืออาชีพ</h6>
                         <div class="contact-me">ติดต่อสอบถาม ยินดีให้คำปรึกษาฟรี</div>
                     </div>
@@ -437,7 +444,7 @@
         </div>
     </section>
 
-    <section class="section-padding" style="background:#c9c9c9;padding:40px;margin-top:1rem;">
+    <section class="section-padding" style="padding:40px;margin-top:1rem;">
         <div class="container-fulid">
             <div class="row">
                 <div class="col-12">
