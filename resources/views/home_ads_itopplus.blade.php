@@ -1,4 +1,4 @@
-@extends('theme.default2')
+@extends('theme.default2s')
 @section('css')
 <style>
     .btn-tel{
@@ -535,7 +535,7 @@
                                     required="required"></textarea>
                             </div>
                             <div class="form-group text-center">
-                                <button type="submit" class="btn-color"><span>Submit</span></button>
+                                <button type="submit" class="btn-form btn-bord btn-lit mt-30"><span>Submit</span></button>
                             </div>
                         </div>
                     </form>
