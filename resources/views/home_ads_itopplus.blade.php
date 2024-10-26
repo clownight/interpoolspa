@@ -1,4 +1,4 @@
-@extends('theme.default')
+@extends('theme.default2')
 @section('css')
 <style>
     .btn-tel{
