@@ -15,9 +15,10 @@ use Illuminate\Support\Facades\Route;
 
 //test
 Route::get('home2',[App\Http\Controllers\HomeController::class,'home2'])->name('home2');
+Route::get('home',[App\Http\Controllers\HomeController::class,'index_ads_itopplus'])->name('index_ads_itopplus');
 
 Route::get('/',[App\Http\Controllers\HomeController::class,'home'])->name('home');
-Route::get('home',[App\Http\Controllers\HomeController::class,'home'])->name('home');
+// Route::get('home',[App\Http\Controllers\HomeController::class,'home'])->name('home');
 Route::post('sendmail__',[App\Http\Controllers\ArticleController::class,'store'])->name('sendmail__');
 Route::get('about-us',[App\Http\Controllers\AboutController::class,'index'])->name('about');
 Route::get('projects',[App\Http\Controllers\ProjectController::class,'index'])->name('projects');

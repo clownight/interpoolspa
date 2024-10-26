@@ -51,5 +51,11 @@ class HomeController extends Controller
         $projects = Project::limit(5)->get();
         return view('home2',compact('projects'));
     }
+
+    public function index_ads_itopplus()
+    {
+        $projects = Project::limit(5)->get();
+        return view('index_ads_itopplus',compact('projects'));
+    }
 }
 
