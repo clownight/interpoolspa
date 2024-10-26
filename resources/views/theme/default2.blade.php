@@ -63,12 +63,12 @@
 
     <!-- ==================== End cursor ==================== -->
 
-        @include('theme.header')
+        @include('theme.header2')
         @include('theme.sidebar')
 
         @yield('content')
 
-    @include('theme.footer')
+    @include('theme.footer2')
     <!-- Placed JS at the end of the document so the pages load faster -->
 
     <script src="{{ asset('js/jquery-3.0.0.min.js') }}"></script>
