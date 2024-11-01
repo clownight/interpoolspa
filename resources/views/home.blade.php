@@ -122,15 +122,86 @@
             transform: rotate(-45deg) !important;
         }
     }
+    video{
+        position: absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        object-fit: cover;
+    }
+    .video_text{
+        position: absolute;
+        z-index: 999;
+        width: 100%;
+        text-align: center;
+        bottom: 20%;
+        .header-title{
+            font-family: "Roboto Slab", 'kanit';
+            font-size: 6em;
+            text-transform: uppercase;
+            font-weight: 500;
+            color:white;
+        };
+        .header-text{
+            font-family: "Roboto Slab", 'kanit';
+            font-size: 2em;
+            color: white;
+        }
+    }
+    @media (max-width: 991px) {
+  .header-title{
+    font-size: 6vw !important;
+  }
+  .video_text {
+    .header-text {
+        font-size: 4vw;
+    }
+
+}
+.contact-me{
+        font-size: 1.6vw !important;
+    }
+  .video_text{
+    bottom: 13%;
+  }
+  .circle2 {
+      background: white;
+      color: #241570;
+      text-align: center;
+      margin: 1rem;
+      padding: 50px 20px;
+      border-radius: 25px;
+      width: 25% !important;
+      flex: none;
+      max-width: unset !important;
+  }
+  .circle2 h4 {
+    font-size: 2vw;
+  }
+  .circle2-icon i {
+      font-size: 8vw !important;
+  }
+  .item .info h5, .team .item .info span {
+    font-size: 2.5vw !important;
+}
+.font-2{
+    font-size: 4vw !important;
+}
+}
 </style>
 @endsection
 @section('content')
     <!-- ==================== Start Slider ==================== -->
-    <header class="slider">
+    {{-- <header class="slider">
         <div class="swiper-container parallax-slider">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
+<<<<<<< HEAD
                     <div class="bg-img valign" style="background-image: url({{ asset('img/slid/1.jpg') }})">
+=======
+                    <div class="bg-img valign" data-background="img/slid/1.jpg" data-overlay-dark="2">
+>>>>>>> e311bb723109d9442bec10dca4a125e78ae4e3a9
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-10 offset-lg-1">
@@ -155,7 +226,11 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
+<<<<<<< HEAD
                     <div class="bg-img valign" style="background-image: url({{ asset('img/slid/2.jpg') }})">
+=======
+                    <div class="bg-img valign" data-background="img/slid/2.jpg" data-overlay-dark="2">
+>>>>>>> e311bb723109d9442bec10dca4a125e78ae4e3a9
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-10 offset-lg-1"> 
@@ -181,17 +256,26 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
+<<<<<<< HEAD
                     <div class="bg-img valign" style="background-image: url({{ asset('img/slid/3.jpg') }})">
+=======
+                    <div class="bg-img valign" data-background="img/slid/3.jpg" data-overlay-dark="2">
+>>>>>>> e311bb723109d9442bec10dca4a125e78ae4e3a9
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-10 offset-lg-1">
                                     <div class="caption hmone">
+<<<<<<< HEAD
                                         <h5 class="thin custom-font color-onsen">onsen</h5>
+=======
+                                        <h5 class="thin custom-font">onsen</h5>
+>>>>>>> e311bb723109d9442bec10dca4a125e78ae4e3a9
                                         <h1 data-splitting><a href="{{route('onsen')}}" target="_blank">
                                                 Onsen
                                             </a>
                                         </h1>
                                         <p class="mt-10"></p>
+<<<<<<< HEAD
                                         <a href="tel:0887896452" class="btn-tel btn-bord btn-lit mt-30">
                                             0887896452
                                         </a>
@@ -200,6 +284,10 @@
                                         </a>
                                         <a href="https://line.me/R/ti/p/%40908bbguw" target="_bank" class="btn-line btn-bord btn-lit mt-30">
                                             Line@
+=======
+                                        <a href="{{route('onsen')}}" target="_blank" class="btn-curve btn-bord btn-lit mt-30">
+                                            <span>Read More</span>
+>>>>>>> e311bb723109d9442bec10dca4a125e78ae4e3a9
                                         </a>
                                     </div>
                                 </div>
@@ -220,8 +308,20 @@
             </div>
             <div class="swiper-pagination top custom-font"></div>
         </div>
+    </header> --}}
+    <header class="slider">
+        <div class="swiper-container parallax-slider pt-80">
+            <div class="swiper-slide">
+                <video controls autoplay muted loop id="myvideo">
+                    <source src="{{ asset('interpoolspa.mp4') }}" type="video/mp4">
+                </video>
+                <div class="video_text">
+                    <span class="header-title">Interpoolspa</span><br>
+                    <span class="header-text">ผู้เชี่ยวชาญด้านสระว่ายน้ำ ด้วยประสบการณ์มากกว่า 20ปี</span>
+                </div>
+            </div>
+        </div>
     </header>
-
     <!-- ==================== End Slider ==================== -->
 
 
